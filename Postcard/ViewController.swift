@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        // Adding a comment
     }
 
     @IBAction func SendMailButtonPressed(sender: UIButton) {
@@ -36,7 +37,8 @@ class ViewController: UIViewController {
         EnterMessageTextField.text = ""
         EnterMessageTextField.resignFirstResponder()
        
-        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal
+    )
     }
 
 }
